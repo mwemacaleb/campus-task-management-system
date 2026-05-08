@@ -1,66 +1,56 @@
-# Welcome to your Lovable project
+# Campus Task Hub (Frontend)
 
-## Project info
-## How can I edit this code?
+The frontend application for the Campus Task Management System. Built with a focus on speed, modern aesthetics, and a seamless user experience for university students.
 
-There are several ways of editing your application.
+## ✨ Key Features
 
-**Use Lovable**
+- **Dynamic Task Marketplace**: Filter and browse tasks posted by residents.
+- **Smart Bidding**: Easy-to-use interface for taskers to bid on jobs.
+- **Financial Tracking**: Built-in wallet to manage payments and earnings.
+- **User Personas**: Distinct experiences for both Residents (posters) and Taskers (doers).
+- **Responsive Design**: Fully optimized for mobile and desktop campus use.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React 18** + **Vite** (for lightning-fast development)
+- **TypeScript** (for type safety and better developer experience)
+- **Tailwind CSS** (for modern, responsive styling)
+- **shadcn/ui** (for high-quality, accessible UI components)
+- **React Router** (for smooth navigation)
+- **Lucide React** (for beautiful iconography)
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
+```bash
+# Install dependencies
+npm install
+```
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Development
+```bash
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Building for Production
+```bash
+# Build the project
+npm run build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Preview the production build
+npm run preview
+```
 
-**Use GitHub Codespaces**
+## 📂 Project Structure
+- `/src/components`: Reusable UI components.
+- `/src/pages`: Main application views/pages.
+- `/src/hooks`: Custom React hooks for logic.
+- `/src/lib`: Utility functions and configuration.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-
+---
+Part of the **Campus Task Management System**.
